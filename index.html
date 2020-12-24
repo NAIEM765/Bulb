@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               
+          }
+          .div{
+             text-align: center; 
+             margin-top: 170px;
+          }
+          #myimg{
+              width: 200px; 
+              
+          }
+          button{
+               background-color: rgb(91, 114, 179);
+               color:white;
+               padding: 5px 5px;
+               border-radius: 10%;
+               border:  1px solid black ;
+               font-size: 15px;
+               font-weight: bolder;
+
+          }
+     </style>
+</head>
+<body>
+     <div class="div">
+     <button onclick="document.getElementById('myimg') .src='bulbon.jpeg'">Light On</button>
+
+     <img id="myimg"src="bulboff.jpeg" alt="">
+
+     <button onclick="document.getElementById('myimg') .src='bulboff.jpeg'">Light Off</button>
+     </div>
+     
+</body>
+</html>
